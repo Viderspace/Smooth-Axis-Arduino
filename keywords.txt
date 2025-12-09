@@ -1,0 +1,22 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SmoothAxis	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+update	KEYWORD2
+read	KEYWORD2
+readFloat	KEYWORD2
+hasChanged	KEYWORD2
+reset	KEYWORD2
+fineTune	KEYWORD2
+getNoiseLevel	KEYWORD2
+getThreshold	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+AUTO	LITERAL1
+LIVE	LITERAL1

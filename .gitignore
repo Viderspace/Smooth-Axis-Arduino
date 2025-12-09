@@ -1,0 +1,6 @@
+.dep/
+.idea/
+cmake-build-*/
+*.hex
+*.elf
+.DS_Store
