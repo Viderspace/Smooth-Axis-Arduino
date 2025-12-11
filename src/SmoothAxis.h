@@ -222,11 +222,7 @@ class SmoothAxis {
          * @param fullOn     Dead zone at high end [0.0-1.0]
          *                   Clips unreliable high values to max (default 1.0 = no dead zone)
          *                   Use when: Sensor is noisy/unreliable at high values
-         *
-         * @param moveThresh Base movement threshold [0.0-1.0]
-         *                   Higher = less sensitive, fewer updates (default 0.003)
-         *                   Use when: Getting too many false updates from noise
-         *
+
          * Example:
          * @code
          * SmoothAxis filter(1023, 0.25f);
@@ -242,13 +238,11 @@ class SmoothAxis {
         void fineTune(
         float stickyZone = 0.003f,
         float fullOff = 0.0f,
-        float fullOn = 1.0f,
-        float moveThresh = 0.003f)
+        float fullOn = 1.0f)
         {
             _axis.cfg.sticky_zone_norm     = stickyZone;
             _axis.cfg.full_off_norm        = fullOff;
             _axis.cfg.full_on_norm         = fullOn;
-            _axis.cfg.movement_thresh_norm = moveThresh;
         }
         
         // --- Diagnostics ---

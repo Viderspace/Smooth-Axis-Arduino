@@ -32,9 +32,8 @@ void setup() {
     // 1. Sticky Zone (0.003): Magnetic snap at exact 0 and 100% (Keep default)
     // 2. Full Off   (0.020):  Input below 2% will be treated as 0.
     // 3. Full On    (0.980):  Input above 98% will be treated as Max.
-    // 4. Threshold  (0.003):  Sensitivity to movement (Keep default)
     
-    axis.fineTune(0.003, 0.02, 0.98, 0.003);
+    axis.fineTune(0.003, 0.02, 0.98);
     
     Serial.println("Dead zones applied: Bottom 2%, Top 2%");
 }
