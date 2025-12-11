@@ -13,7 +13,7 @@
 #pragma once
 
 #include <Arduino.h>
-#include "smooth_axis.h"
+#include "core/smooth_axis.h"
 
 class SmoothAxis {
         public:
