@@ -17,7 +17,7 @@ const int SENSOR_MAX = 1023;
 // How long (in seconds) for the reading to stabilize.
 // Lower (0.10) = Very snappy, fast response.
 // Higher (0.30) = Very smooth, slow "cinematic" feel.
-const float SETTLE_TIME = 2.15;
+const float SETTLE_TIME = 0.15;
 
 // Initialize the filter
 SmoothAxis axis(SENSOR_MAX, SETTLE_TIME);
