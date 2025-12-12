@@ -12,10 +12,13 @@ Specify smoothing as a settle time in seconds. The filter adapts to your noise l
 
 ---
 
+
 ## Installation
-**Arduino Library Manager:** Search for "SmoothAxis" → Install
+**Arduino Library Manager:**   Search for '```SmoothAxis```' → Install
+
 
 Or [download manually](https://github.com/Viderspace/Smooth-Axis-Arduino) and place in your Arduino `libraries` folder.
+
 
 ## Quick Start
 
